@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/wp_simple_products_generator",
+    "type": "magento-module",
+    "license": "Creative-Commons-Attribution-3.0-Unported-License",
+    "homepage": "",
+    "description": "Generate Simple Products for Configurable Product (Web-Experiment.Info)",
+    "authors": [
+    {
+        "name": "WebAndPeople",
+        "email": "design@webandpeople.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

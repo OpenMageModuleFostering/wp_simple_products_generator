@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <name>wp_simple_products_generator</name>
+  <version>2.0.0</version>
+  <stability>stable</stability>
+  <license uri="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</license>
+  <channel>community</channel>
+  <extends/>
+  <summary>Generate Simple Products for Configurable Product (Web-Experiment.Info)</summary>
+  <description>Generate Simple Products for Configurable Product (Web-Experiment.Info)</description>
+  <notes>Проверил в Magento 1.8.1.0. Изменил алгоритм генерации: теперь генерация прост. продуктов осуществляется в рамках конф. продукта, а не в рамках Attribute Set, к которому принадлежит конф. продукт. Поменял расположение файлов на правильное. Добавил возможность выбирать с какими опциями генерировать прост. продукты.</notes>
+  <authors>
+    <author>
+      <name>WebAndPeople</name>
+      <user>WebAndPeople</user>
+      <email>design@webandpeople.com</email>
+    </author>
+    <author>
+      <name>Yura Gerassimenko</name>
+      <user>ygerassimenko</user>
+      <email>y.gerassimenko@webandpeople.com</email>
+    </author>
+  </authors>
+  <date>2014-02-13</date>
+  <time>04:38:35</time>
+  <contents>
+    <target name="mageweb">
+      <dir name="app">
+        <dir name="code">
+          <dir name="community">
+            <dir name="WP">
+              <dir name="GenerateSimpleProducts">
+                <dir name="Block">
+                  <file name="About.php" hash="b475148c19d52ec4ed28be709c60d024"/>
+                  <file name="Config.php" hash="f999587ef5f8d61f529c282c8dcd0496"/>
+                </dir>
+                <dir name="Helper">
+                  <file name="Data.php" hash="5abc3c3fdb45aa8ab5ccee9108e2c031"/>
+                </dir>
+                <dir name="controllers">
+                  <file name="IndexController.php" hash="000ac8d252ae79152736d45168eb2ee3"/>
+                </dir>
+                <dir name="etc">
+                  <file name="config.xml" hash="cc5b7ac2e40b99d030b96cb2201fa324"/>
+                  <file name="system.xml" hash="8e8b5059586dbf280d613e4167d820aa"/>
+                </dir>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+        <dir name="design">
+          <dir name="adminhtml">
+            <dir name="default">
+              <dir name="default">
+                <dir name="layout">
+                  <file name="generatesimpleproducts.xml" hash="7f8b8b1956ba050cba34f38af2cbc05c"/>
+                </dir>
+                <dir name="template">
+                  <dir name="generatesimpleproducts">
+                    <file name="config.phtml" hash="dca91e414173f794e84ad3e04da1a8c6"/>
+                    <file name="popup.phtml" hash="9cb236a568976dfc546c972c0ecd52fc"/>
+                  </dir>
+                </dir>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+        <dir name="etc">
+          <dir name="modules">
+            <file name="WP_GenerateSimpleProducts.xml" hash="800a66c8fd03bb430b5e8964f89e7c0b"/>
+          </dir>
+        </dir>
+      </dir>
+      <dir name="skin">
+        <dir name="adminhtml">
+          <dir name="default">
+            <dir name="default">
+              <dir name="generatesimpleproducts">
+                <file name="style.css" hash="ef6e67aae2f54c0fee7a98d133f9cca7"/>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+      </dir>
+    </target>
+  </contents>
+  <compatible/>
+  <dependencies>
+    <required>
+      <php>
+        <min>5.2.0</min>
+        <max>6.0.0</max>
+      </php>
+    </required>
+  </dependencies>
+</package>
