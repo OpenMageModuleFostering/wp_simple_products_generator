@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <name>wp_simple_products_generator</name>
-  <version>2.0.0</version>
+  <version>2.1.0</version>
   <stability>stable</stability>
   <license uri="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</license>
   <channel>community</channel>
   <extends/>
   <summary>Generate Simple Products for Configurable Product (Web-Experiment.Info)</summary>
   <description>Generate Simple Products for Configurable Product (Web-Experiment.Info)</description>
-  <notes>Проверил в Magento 1.8.1.0. Изменил алгоритм генерации: теперь генерация прост. продуктов осуществляется в рамках конф. продукта, а не в рамках Attribute Set, к которому принадлежит конф. продукт. Поменял расположение файлов на правильное. Добавил возможность выбирать с какими опциями генерировать прост. продукты.</notes>
+  <notes>Исправлена фатальная ошибка, возникающая в работе генератора при включении Компиляции.</notes>
   <authors>
     <author>
       <name>WebAndPeople</name>
@@ -21,8 +21,8 @@
       <email>y.gerassimenko@webandpeople.com</email>
     </author>
   </authors>
-  <date>2014-02-13</date>
-  <time>04:38:35</time>
+  <date>2014-02-14</date>
+  <time>01:27:28</time>
   <contents>
     <target name="mageweb">
       <dir name="app">
@@ -38,10 +38,10 @@
                   <file name="Data.php" hash="5abc3c3fdb45aa8ab5ccee9108e2c031"/>
                 </dir>
                 <dir name="controllers">
-                  <file name="IndexController.php" hash="000ac8d252ae79152736d45168eb2ee3"/>
+                  <file name="IndexController.php" hash="9d3fe491383d835369509afa9c7ac1ce"/>
                 </dir>
                 <dir name="etc">
-                  <file name="config.xml" hash="cc5b7ac2e40b99d030b96cb2201fa324"/>
+                  <file name="config.xml" hash="5f96ae4536daca51b4c9dc567d5dde27"/>
                   <file name="system.xml" hash="8e8b5059586dbf280d613e4167d820aa"/>
                 </dir>
               </dir>

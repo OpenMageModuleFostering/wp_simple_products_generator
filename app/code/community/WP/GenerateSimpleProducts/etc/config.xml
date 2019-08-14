@@ -2,7 +2,7 @@
 <config>
     <modules>
         <WP_GenerateSimpleProducts>
-            <version>2.0.0</version>
+            <version>2.1.0</version>
         </WP_GenerateSimpleProducts>
     </modules>
     <admin>
@@ -67,7 +67,7 @@
     <default>
         <generate_simple_products>
             <general>
-                <version>2.0.0</version>
+                <version>2.1.0</version>
             </general>
         </generate_simple_products>
     </default>

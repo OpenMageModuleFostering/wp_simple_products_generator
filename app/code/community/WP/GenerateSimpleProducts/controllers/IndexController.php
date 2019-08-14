@@ -1,6 +1,6 @@
 <?php
 
-class WP_GenerateSimpleProducts_IndexController extends Mage_Adminhtml_Controller_action
+class WP_GenerateSimpleProducts_IndexController extends Mage_Adminhtml_Controller_Action
 {
     const COMBINATIONS_MAXIMUM = 200002;
     const PORTION_COUNT = 10;
